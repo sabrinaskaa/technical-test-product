@@ -1,0 +1,261 @@
+.AllProductListWrap {
+  width: 100%;
+  height: 100%;
+  padding: 0 4rem;
+
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.productListWrap {
+  height: 400px;
+  padding: 0 1rem;
+  border-radius: 3px;
+  margin: 0 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.displayimg {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+
+  margin-bottom: 2rem;
+}
+
+.displaytxt,
+.displaynum {
+  font-size: var(--font-size);
+  color: var(--font-color);
+}
+
+.displaytxt {
+  padding-bottom: 5px;
+  font-weight: 700;
+}
+
+.buttonWrap {
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.displaybtn {
+  width: calc(100% - 4px);
+  margin: 2px 2px;
+
+  padding: 10px 0;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+.displaybtn:hover {
+  filter: opacity(90%);
+  transition: all ease-in-out 0.2s;
+}
+
+.redbtn {
+  background-color: var(--red-color);
+  color: var(--body-color);
+
+  font-weight: 700;
+  font-size: var(--font-size);
+}
+
+.bluebtn {
+  background-color: var(--blue-color);
+  color: var(--body-color);
+
+  font-weight: 700;
+  font-size: var(--font-size);
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.modalimg {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.modalimgwrap {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modaltxtwrap {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  margin-top: 2rem;
+  padding-left: 4rem;
+
+  /* background-color: var(--bg-color); */
+  border-left: 1px solid #a0a0a0;
+}
+
+.content {
+  width: 75%;
+  height: 50%;
+}
+
+.modaltxt {
+  width: 100%;
+  font-size: var(--font-size);
+  color: var(--font-color);
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.modaltxtheader {
+  font-size: var(--header-font);
+  font-weight: 600;
+  line-height: 45px;
+  margin-bottom: 1rem;
+}
+
+.listmodaltxt {
+  margin: 2rem 0;
+}
+
+.wraplistmodaltxt {
+  display: flex;
+  flex-direction: row;
+}
+
+.titlemodaltxt {
+  font-size: var(--font-size);
+  color: var(--font-color);
+  font-weight: 600;
+  line-height: 25px;
+
+  width: 25rem;
+}
+
+.modalnum {
+  color: var(--higlight);
+  font-size: var(--highlight-size);
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1620px) {
+  .AllProductListWrap {
+    grid-template-columns: auto auto;
+  }
+  .productListWrap {
+    margin: 1rem 1rem;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .AllProductListWrap {
+    grid-template-columns: auto;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .productListWrap {
+    width: 300px;
+    height: 350px;
+  }
+
+  .displayimg {
+    width: 230px;
+    height: 160px;
+  }
+
+  .modalContent {
+    flex-direction: column;
+  }
+
+  .modalimgwrap {
+    width: 100%;
+  }
+
+  .modalimg {
+    width: 310px;
+    height: 210px;
+  }
+
+  .modaltxtwrap {
+    width: 90%;
+    border-left: none;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .content {
+    width: 90%;
+  }
+
+  .titlemodaltxt {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .modalimg {
+    width: 250px;
+    height: 180px;
+  }
+
+  .modaltxtwrap {
+    width: 90%;
+    border-left: none;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .content {
+    width: 90%;
+  }
+
+  .titlemodaltxt {
+    width: 15rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .modalimg {
+    width: 200px;
+    height: 150px;
+  }
+
+  .modaltxtwrap {
+    width: 90%;
+    border-left: none;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .content {
+    width: 90%;
+  }
+
+  .titlemodaltxt {
+    width: 15rem;
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "./img/macbookair.png",
+      "nama": "Macbook Air",
+      "brand": "Apple",
+      "penyimpanan": 128,
+      "ukuran": "13-inci",
+      "harga": 10000000
+    },
+    {
+      "id": 2,
+      "image": "./img/asus_expertBook.png",
+      "nama": "Asus ExpertBook",
+      "brand": "Asus",
+      "penyimpanan": 512,
+      "ukuran": "14-inci",
+      "harga": 11000000
+    },
+    {
+      "id": 3,
+      "image": "./img/asus_vivobook.png",
+      "nama": "Asus Vivobook",
+      "brand": "Asus",
+      "penyimpanan": 512,
+      "ukuran": "13.3-inci",
+      "harga": 8000000
+    },
+    {
+      "id": 4,
+      "image": "./img/hp_pavilionAero.png",
+      "nama": "HP Pavilion Aero",
+      "brand": "HP",
+      "penyimpanan": 512,
+      "ukuran": "13.3-inci",
+      "harga": 12000000
+    },
+    {
+      "image": "https://d1r7omh34z6onh.cloudfront.net/gk/production/d9b8876a7c0cb51653bb22174b628f02.jpeg",
+      "nama": "Lenovo Region",
+      "brand": "Lenovo",
+      "penyimpanan": "512",
+      "ukuran": "15-inci",
+      "harga": "24000000",
+      "id": 5
+    },
+    {
+      "image": "https://www.bhinneka.com/_next/image?url=https%3A%2F%2Fstatic.bmdstatic.com%2Fgk%2Fproduction%2Fd50708b092fed448850c389760972469.JPG&w=640&q=75",
+      "nama": "Asus Business Notebook",
+      "brand": "Asus",
+      "penyimpanan": "512",
+      "ukuran": "14",
+      "harga": "48000000",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "image": "https://www.bhinneka.com/_next/image?url=https%3A%2F%2Fd1r7omh34z6onh.cloudfront.net%2Fgk%2Fproduction%2F5e3ba65088f0b4a0ef139daa6f9bab24.jpg&w=640&q=75",
+      "nama": "Asus A516EPO",
+      "brand": "Asus",
+      "penyimpanan": "512",
+      "ukuran": "15",
+      "harga": "15000000"
+    },
+    {
+      "image": "https://www.bhinneka.com/_next/image?url=https%3A%2F%2Fd1r7omh34z6onh.cloudfront.net%2Fgk%2Fproduction%2F081cee9cfe00f2d354b18d0d96aeba76.jpeg&w=640&q=75",
+      "nama": "Acer Swift 3",
+      "brand": "Acer",
+      "penyimpanan": "512",
+      "ukuran": "13",
+      "harga": "13000000",
+      "id": 8
+    }
+  ]
+}
