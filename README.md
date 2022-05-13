@@ -16,5 +16,5 @@ Membuat aplikasi sederhana daftar produk yang dapat melakukan operasi:
 <br /><br />
 
 Aplikasi di atas dibuat menggunakan React Hooks State Management. Daftar product ditampilkan di awal. Saat user menekan card, maka akan menampilkan detail product seperti berikut.
-<br />
+<br /><br />
 ![Screenshot 2022-05-13 111935](https://user-images.githubusercontent.com/70563202/168210545-8c760117-53a8-4f95-b049-2a920e5b493d.png)
