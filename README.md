@@ -29,3 +29,6 @@ Mengidit produk dilakukan dengan menekan button Edit pada card produk. Form yang
 ![Screenshot 2022-05-13 120645](https://user-images.githubusercontent.com/70563202/168214869-ea088c86-5f78-46dd-881c-679a36319b98.png)
 <br /><br />
 Untuk menghapus produk, dapat dilakukan dengan menekan button delete pada card.
+<br /><br />
+![Screenshot 2022-05-13 121252](https://user-images.githubusercontent.com/70563202/168215505-139090f8-5e43-4cef-a733-ddd8127a00bf.png)
+
