@@ -22,4 +22,5 @@ Aplikasi di atas dibuat menggunakan React Hooks State Management. Daftar product
 Membuat produk baru, dapat dilakukan dengan mengisi form yang berada di bawah list produk.
 <br /><br />
 ![Screenshot 2022-05-13 115759](https://user-images.githubusercontent.com/70563202/168214271-e76cbaf4-e8b5-4d23-8567-92b52da4b813.png)
-![Screenshot 2022-05-13 111935](https://user-images.githubusercontent.com/70563202/168214281-5c1aae82-8f24-48ff-953a-6bc4fd9ab4fa.png)
+![Web capture_13-5-2022_115855_localhost](https://user-images.githubusercontent.com/70563202/168214328-a22d859e-a0d9-4fda-951a-a15eaba02c13.jpeg)
+
