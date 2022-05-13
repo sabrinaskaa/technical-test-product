@@ -11,4 +11,6 @@ Membuat aplikasi sederhana daftar produk yang dapat melakukan operasi:
   <li>Hapus produk</li>
 </ol>
 <br /><br />
+<div>
 ![Web capture_13-5-2022_105850_localhost](https://user-images.githubusercontent.com/70563202/168208677-76dbcc3c-54d9-49e5-9505-80cacd4b646f.jpeg)
+</div>
