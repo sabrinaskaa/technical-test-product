@@ -22,7 +22,6 @@ function FormProduct() {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    console.log("1. Masuk Handle Submit");
     if (id) {
       //update
       updateProduct(dispatch, {
@@ -77,7 +76,6 @@ function FormProduct() {
   //update product
   useEffect(() => {
     if (updateProductResult) {
-      console.log("5. Get Product List");
       getProductList(dispatch);
       setImage("");
       setNama("");

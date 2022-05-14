@@ -40,7 +40,6 @@ const product = (state, action) => {
       };
 
     case UPDATE_PRODUCT:
-      console.log("4. Masuk Reducer : ", action);
       return {
         ...state,
         updateProductResult: action.payload.data,

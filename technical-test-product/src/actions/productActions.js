@@ -84,7 +84,6 @@ export const addProduct = (dispatch, data) => {
 };
 
 export const deleteProduct = (dispatch, id) => {
-  console.log("2. Masuk Action");
   //loading
   dispatch({
     type: DELETE_PRODUCT,
@@ -101,7 +100,6 @@ export const deleteProduct = (dispatch, id) => {
     timeout: 120000,
   })
     .then((response) => {
-      console.log("3. Berhasil Delete : ", response);
       dispatch({
         type: DELETE_PRODUCT,
         payload: {
@@ -112,7 +110,6 @@ export const deleteProduct = (dispatch, id) => {
       });
     })
     .catch((error) => {
-      console.log("3. Gagal Delete : ", error.message);
       dispatch({
         type: DELETE_PRODUCT,
         payload: {
@@ -134,7 +131,6 @@ export const detailProduct = (dispatch, data) => {
 };
 
 export const updateProduct = (dispatch, data) => {
-  console.log("2. Masuk Action");
   //loading
   dispatch({
     type: UPDATE_PRODUCT,
@@ -152,7 +148,6 @@ export const updateProduct = (dispatch, data) => {
     data: data,
   })
     .then((response) => {
-      console.log("3. Berhasil Update : ", response);
       dispatch({
         type: UPDATE_PRODUCT,
         payload: {
@@ -163,7 +158,6 @@ export const updateProduct = (dispatch, data) => {
       });
     })
     .catch((error) => {
-      console.log("3. Gagal Update : ", error.message);
       dispatch({
         type: UPDATE_PRODUCT,
         payload: {
